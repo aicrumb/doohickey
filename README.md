@@ -1,5 +1,7 @@
 # doohickey
 
+*alternate name, De-5-ofem (it's funny because it's like Deforum but there's 5 models in the notebook)*
+
 A notebook with all the tools I want for Stable Diffusion:
 - CLIP guidance
 - LPIPS guidance
