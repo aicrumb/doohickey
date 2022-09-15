@@ -15,3 +15,26 @@ A notebook with all the tools I want for Stable Diffusion:
 (link to open the code in a free GPU instance from Google Colab [here](https://t.co/zCV2xsC3UE))
 
 more to come, feel free to add code and submit a PR (yipee for open source)
+
+
+good classifier guidance settings for the new open ViT-H
+```
+classifier_guidance = True
+lpips_guidance = False
+lpips_scale = 0
+loss_scale = 1.
+clip_model_name = "ViT-H-14"
+clip_model_pretrained = "laion2b_s32b_b79k"
+cutn = 2
+```
+
+i prefer the new ViT-B
+```
+classifier_guidance = True
+lpips_guidance = False
+lpips_scale = 0
+loss_scale = 8.
+clip_model_name = "ViT-B-32"
+clip_model_pretrained = "laion2b_s34b_b79k"
+cutn = 8
+```
