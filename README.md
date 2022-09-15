@@ -17,7 +17,7 @@ A notebook with all the tools I want for Stable Diffusion:
 more to come, feel free to add code and submit a PR (yipee for open source)
 
 
-### good classifier guidance settings for the new open ViT-H
+## Good classifier guidance settings for the new open ViT-H
 ```
 classifier_guidance = True
 lpips_guidance = False
@@ -39,7 +39,7 @@ clip_model_pretrained = "laion2b_s34b_b79k"
 cutn = 8
 ```
 
-### text-inversions
+## Text-inversions
 `load_full_concept_library` will take a While, it loads every single concept in sd_concepts. To take less time only choose the ones you want (https://huggingface.co/sd-concepts-library) and copy the ids (they should be something like "sd-concepts-library/my-inversion"). under "specific_concepts" you want a list of all the ids to import, like `["sd-concepts-library/my-first-inversion", "sd-concepts-library/my-second-inversion"]` etc
 
 while importing them, it will print the tokens text so you know exactly how to use them in your prompts. Text inversions do not work in the `clip_text_prompt`.
