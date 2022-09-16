@@ -14,8 +14,7 @@ A notebook with all the tools I want for Stable Diffusion:
 
 (link to open the code in a free GPU instance from Google Colab [here](https://t.co/zCV2xsC3UE))
 
-more to come, feel free to add code and submit a PR (yipee for open source)
-
+more to come, feel free to add code and submit issues etc (yipee for open source)
 
 ## Good classifier guidance settings for the new open ViT-H
 ```
