@@ -48,8 +48,6 @@ while importing them, it will print the tokens text so you know exactly how to u
 on the agenda right now are:
 - gobig clone
 - support clip models from HF (just in case)
-- grad accumulation for clip guidance
 - visualization for intermediate steps
-- convert the unet to onnx for ... 1.5x speed? I read that somewhere and also saw this https://www.photoroom.com/tech/stable-diffusion-25-percent-faster-and-save-seconds/
 - support older text inversion files. this could've been done so easy but im soooo tired
 - save/load settings to/from file
