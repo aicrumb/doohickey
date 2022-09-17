@@ -51,3 +51,4 @@ on the agenda right now are:
 - visualization for intermediate steps
 - support older text inversion files. this could've been done so easy but im soooo tired
 - save/load settings to/from file
+- color grading with presets
