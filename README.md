@@ -10,7 +10,7 @@ A notebook with all the tools I want for Stable Diffusion:
 - image inits
 - multiple models to choose from
 
-(link to open the code in a free GPU instance from Google Colab [here](https://t.co/zCV2xsC3UE))
+(link to open the code in a free GPU instance from Google Colab [here](https://colab.research.google.com/github/aicrumb/doohickey/blob/main/Doohickey_Beta.ipynb))
 
 more to come, feel free to add code and submit issues etc (yipee for open source)
 
